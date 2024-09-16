@@ -2,7 +2,7 @@ export const novemberMovies = [
   {
     id: '1',
     anchorLink: './mediaOffer2r.html',
-    movieImg: '/november2024/paultyson.jpg',
+    movieImg: 'november2024/paultyson.jpg',
     premiere: 'November 15, 2024',
     contentType: {
       film: true,
@@ -18,7 +18,7 @@ export const novemberMovies = [
   {
     id: '2',
     anchorLink: './mediaOffer2r.html',
-    movieImg: '/november2024/backinaction.jpg',
+    movieImg: 'november2024/backinaction.jpg',
     premiere: 'November 15, 2024',
     contentType: {
       film: false,
@@ -34,7 +34,7 @@ export const novemberMovies = [
   {
     id: '3',
     anchorLink: './mediaOffer2r.html',
-    movieImg: '/november2024/spellbond.jpg',
+    movieImg: 'november2024/spellbond.jpg',
     premiere: 'November 22, 2024',
     contentType: {
       film: false,
@@ -50,7 +50,7 @@ export const novemberMovies = [
   {
     id: '4',
     anchorLink: './mediaOffer2r.html',
-    movieImg: '/november2024/arcane.jpg',
+    movieImg: 'november2024/arcane.jpg',
     premiere: 'November 2024', 
     contentType: {
       film: false,
