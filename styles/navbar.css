@@ -390,7 +390,7 @@
 
 .first--background{
   width: 100%;
-  background-image: url('/media/streams-bg.png');
+  background-image: url('./media/streams-bg.png');
   background-size: contain;
   background-repeat:repeat-y;
   display: flex;
