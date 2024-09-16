@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/media.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/mediaquerys.css">
+  
+  <title>media</title>
+</head>
+<body class="media--body" id="body">
+
+  <nav class="nav js-media-nav">
+    <div class="nav--container">
+      <div class="netflix--nav--logo js-netflix-nav-logo">
+        <img src="../img/Netflix-Logo.svg" alt="">
+        Media Center
+      </div>
+
+      <div class="menu--btn js--menu-btn">
+        
+        <div class="menu--btn--sliders-container">
+          <button class="menu--button lang-btn" id="choose--language">
+            polski
+            <img src="../img/arrow.png" class="menuBtnImg" alt="" />
+          </button>
+  
+          <button class="menu--button2 country-btn">
+            <div class="country--name js-country--name">PL Polska</div>
+            <img src="../img/arrow.png" class="menuBtnImg js-country-img" alt="" />
+          </button>
+        </div>
+      
+        <button class="menu--button main-site-btn">
+          Strona główna
+          <div class="arrow-up-right"></div>
+        </button>
+
+        <button class="menu--button daily-news-btn">
+          Aktualności
+          <div class="arrow-up-right"></div>
+        </button>
+
+        <button class="menu--button resources resources-btn" id="res-nav-el">
+          Zasoby
+          <img src="../img/arrow.png" class="menuBtnImg" alt="" />
+          <div class="resources--container js-resources--container">
+            <a href="#" class="resources-anchor">
+              Zasoby filmowe
+              <img src="../img/arr1.png" class="resources-img" alt="">
+            </a>
+            <a href="#" class="resources-anchor">
+              Informacje o firmie Netflix
+              <img src="../img/arr1.png" class="resources-img" alt="">
+            </a>
+          </div>
+        </button>
+
+        <button class="menu--button aplly apply-btn">
+          Aplikuj
+        </button>
+
+        <button class="press--log">Logowanie do prasy</button>
+      </div>
+
+      <button class="search" id="search-button">
+        <img src="../img/icons8-search.svg" alt="" />
+      </button>
+
+      <div class="burger-main-container js-burger-container">
+        <div class="burger-line js-burger-line"></div>
+        <div class="burger-line js-burger-line"></div>
+        <div class="burger-line js-burger-line"></div>
+      </div>
+
+      <div class="search--btn-container">
+        <img src="../img/icons8-search.svg" alt="" />
+        <input class="search--btn-input" placeholder="Wyszukaj">
+        <button class="exit-input-btn"></button>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- sliders -->
+
+  <!---->
+  <div class="choose--lang-hidden js-choose-lang">
+
+    <div class="slider--exit exit-language">
+      <div class="exit--button js-exit-language-button">
+        <img src="../img/cross.png"  class="exitImg" alt=""/>
+      </div>
+    </div>
+    
+    <div class="question js-question-language">W którym języku mówisz?</div>
+    <div class="languages">
+      <div class="languages--subcontainer">
+        <div class="languages--choosing">
+          <div class="language-el js-language-el left-side">اللغة العربية</div>
+          <div class="language-el js-language-el left-side">简体中文</div>
+          <div class="language-el js-language-el left-side">繁體中文</div>
+          <div class="language-el js-language-el left-side">English</div>
+          <div class="language-el js-language-el left-side">Français</div>
+          <div class="language-el js-language-el left-side">Deutsch</div>
+          <div class="language-el js-language-el left-side">Ελληνικά</div>
+        </div>
+        <div class="language--choosing">
+          <div class="language-el js-language-el center-placed">Bahasa Indonesia</div>
+          <div class="language-el js-language-el center-placed">Italiano</div>
+          <div class="language-el js-language-el center-placed">日本語</div>
+          <div class="language-el js-language-el center-placed">한국어</div>
+          <div class="language-el js-language-el center-placed">polski</div>
+          <div class="language-el js-language-el center-placed">Português (Brasil)</div>
+          <div class="language-el js-language-el center-placed">Português (Portugal)</div>
+          
+        </div>
+        <div class="language--choosing">
+          <div class="language-el js-language-el right-side">română</div>
+          <div class="language-el js-language-el right-side">Español (Latino)</div>
+          <div class="language-el js-language-el right-side">Español (España)</div>
+          <div class="language-el js-language-el right-side">ไทย</div>
+          <div class="language-el js-language-el right-side">Türkçe</div>
+        </div>       
+      </div>
+    </div>
+  </div>
+
+  <!-- country slider -->
+
+  <div class="slider-country js-slider-country">
+
+    <div class="slider--exit">
+      <div class="exit--button">
+        <img src="../img/cross.png"  class="exitCountry" alt=""/>
+      </div>
+    </div>
+
+    <div class="question js-country-question" id="country--question">W którym kraju publikujesz?</div>
+    
+    <div class="country-select">
+      <p>Wybierz kraj, w którym publikujesz, aby zobaczyć informacje dotyczące Twojego regionu.</p>
+      
+      <div class="find--your--country">
+        <div class="country--selection">
+          <div class="country"></div>
+          <div class="country--arrow js-country-arrow">
+          </div>
+        </div>
+  
+        <div class="slider--country--selection js-slider-country-selection">
+          <div class="searching--pseudoclass">
+            <img src="../img/icons8-search.svg" class="search-style" alt="" />
+            <input type="search" class="searching--country" placeholder="Wyszukaj" />
+          </div>
+          <div class="countries js-countries">           
+          </div>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+  <div class="first--background">
+    <div class="media--research">
+      <div class="media-title js-media-title">Odkryj historie i wydarzenia, którymi podzielisz się z Polską.</div>
+      <input type="text" class="media--find" placeholder="Szukaj tytułów i aktualności o serwisie Netflix" />
+    </div>
+  </div>
+
+<div class="movie-variety--container">
+  <div class="film-search">
+    <div class="research--title js-research--title">
+      Interesują mnie tytuły, które mają premierę w 
+      <div class="research--title-month js-research-month">
+        <div class="month--name js-month-name">
+          <div class="selected-month-name js-selected-month-name"></div>
+          <div class="selected-arrow-icon"></div>
+        </div>
+         
+          <div class="month--varieties js--month-varieties"></div>  
+         
+      </div>
+    </div>
+    
+    <div class="research-buttons--container js-research-buttons--container">      
+    </div>
+    </div>
+  </div>
+  
+  <div class="movies--container--block">
+    <div class="movies">
+      <div class="movies--container js-movies--container">
+      </div>
+      <button class="show-more-btn js-show-more-btn"></button>
+    </div>
+  </div>
+</div>
+
+<div class="movies--news">
+  <h3>Najnowsze wiadomości</h3>
+  
+  <div class="movies--row">
+    <!-- article 1 -->
+    <div class="movies--news--articles">
+      <div class="article1">
+        <div class="article--container">
+          <div class="movie--country">Brazylia, Cały świat</div>
+          <h2 class="movie--title">Nowy komendant melduje się do służby! Na tym komisariacie czegoś takiego jeszcze nie było. Pierwszy serial Leandra Hassuma zadebiutuje na Netflix już 6 września</h2>
+          <button class="read-more">Czytaj dalej</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- article 2 -->
+    <div class="movies--news--articles-border">
+      <div class="article2">
+        <div class="article--container">
+          <div class="movie--country">Australia, Cały świat</div>
+          <h2 class="movie--title" >Dwójka nowych uczniów w „Szkole złamanych serc” — sprawdzamy listę obecności w 2. sezonie</h2>
+          <button class="read-more">Czytaj dalej</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- article 3-->
+    <div class="movies--news--articles">
+      <div class="article3">
+        <div class="article--container">
+          <div class="movie--country">Australia, Cały świat</div>
+          <h2 class="movie--title">„Run Rabbit Run” — niesamowity australijski thriller</h2>
+          <button class="read-more">Czytaj dalej</button>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- movies row end-->
+
+  <button class="more--information">Więcej wiadomości znajdziesz w sekcji Aktualności</button>
+
+</div>
+
+<div class="company--assets">
+  <div class="assets--research">
+    <h1>Szukasz zasobów firmowych?</h1>
+    <div class="toggle">Więcej zdjęć i informacji na temat serwisu Netflix znajdziesz na stronie naszej firmy.</div>
+    <button class="netflix--info">Przejdź do informacji o firmie Netflix</button>
+  </div>
+</div>
+
+<footer>
+  <div class="footer--containers">
+    <!-- container 1 -->
+   <div class="footer--container">
+    <h5>Firma</h5>
+    <a href="#">Informacje o firmie Netflix</a>
+    <a href="#">Aktualności</a>
+    <a href="#">Zasoby firmowe</a>
+    <a href="#">Zacznij oglądać</a>
+   </div>
+
+   <!-- container 2 -->
+   <div class="footer--container">
+    <h5>Kontakt</h5>
+    <a href="#">Kontakt z nami</a>
+    <div class="container--icons">
+      <img src="/media/icons/icons8-twitter-50.png" class="icon--img" alt="" />
+      <img src="/media/icons/icons8-instagram-50.png" class="icon--img" alt="" />
+      <img src="/media/icons/icons8-facebook-50.png" class="icon--img" alt="" />
+    </div>   
+   </div>
+
+   <!-- container 3-->
+   <div class="footer--container">
+    <h5>Prawo</h5>
+    <a href="#">Regulamin</a>
+    <a href="#">Prywatność</a>
+    <a href="#">Ustawienia plików cookie</a>
+   </div>
+
+  </div>
+</footer>
+
+  <script src="./scripts/burgerMenu.js"> </script>
+  <script src="./scripts/languageButtons.js"> </script>
+  <script src="./scripts/country.js"></script>
+  <script src="./scripts/resourcesBtn.js" ></script>
+  <script src="./scripts/searchbar.js"></script> 
+  <script src="./scripts/renderCountries.js" type="module"></script>
+  <script src="./scripts/renderMoviesList.js" type="module"></script>
+  <script type="module" src="./scripts/renderButtons.js"></script> 
+  <script type="module" src="/scripts/renderFirst20Movies.js"></script>
+  <script type="module" src="./scripts/selectOffer.js" ></script>
+  <script type="module" src="./scripts/dateJS.js"></script>  
+  <script src="./scripts/navbarCountry.js"></script>
+  <script src="./scripts/media.js"></script>
+  <script src="./scripts/widnowCkick.js"></script>
+</body>
+</html>
