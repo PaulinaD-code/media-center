@@ -229,7 +229,7 @@
 .exit-input-btn{
   width: 2em;
   height: 3vh;
-  background-image: url('img/cross.png');
+  background-image: url('../img/cross.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-color: transparent;
@@ -482,7 +482,7 @@
 }
 
 .selected-arrow-icon{
-  background-image: url('/img/arrowdownSmall.png');
+  background-image: url('../img/arrowdownSmall.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 10px;
