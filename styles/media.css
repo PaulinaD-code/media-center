@@ -509,7 +509,7 @@
 .company--assets{
   width: 100%;
   height:310px;
-  background-image: url('media/company_assets_bg.png');
+  background-image: url('../media/company_assets_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(50%);
