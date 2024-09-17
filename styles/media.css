@@ -436,15 +436,15 @@
 }
 
 .article1{
-  background-image: url('movie/b.o.png');
+  background-image: url('../movie/b.o.png');
 }
 
 .article2{
-  background-image: url('movie/HBH_Season_2_V4.jpg');
+  background-image: url('../movie/HBH_Season_2_V4.jpg');
 }
 
 .article3{
-  background-image: url('movie/RunRabbitRun_Netflix_140.jpg');
+  background-image: url('../movie/RunRabbitRun_Netflix_140.jpg');
 }
 
 .article--container{
