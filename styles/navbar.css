@@ -574,6 +574,7 @@
   transition: .5s ease;
   cursor: pointer;
   padding: 8px 12px;
+  white-space: nowrap;
 }
 
 .btn--icon{
