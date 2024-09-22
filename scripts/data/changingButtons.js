@@ -26,7 +26,7 @@ export const selectionButtons = [
   {
     id:'interactive',
     name: 'Ineraktywne',
-    icon: './img/media/media--nav-btn/interactive.png',
+    icon: './media/media--nav-btn/interactive.png',
     attribute: false
   },
   {
