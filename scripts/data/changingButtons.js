@@ -32,7 +32,7 @@ export const selectionButtons = [
   {
     id:'realityTV',
     name: 'Reality TV',
-    icon: '.media/media--nav-btn/camera.png', 
+    icon: './media/media--nav-btn/camera.png', 
     attribute: false
   },
   {
